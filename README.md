@@ -1,4 +1,4 @@
-Made for HackSC 2019.
+Made for HackSC 2019. InstaCar is a peer-to-peer smart car rental service for quick trips or new destinations without necessitating physical interaction.
 
 
 
