@@ -16,7 +16,7 @@ email = None
 dic = None
 
 config = {
-          "apiKey": "AIzaSyDHbigP1k14RMRi7UJCg6EpS3TELNdTOeg",
+          "apiKey": "",
           "authDomain": "hacksc2019.firebaseapp.com",
           "databaseURL": "https://hacksc2019.firebaseio.com",
           "storageBucket": "hacksc2019.appspot.com",
@@ -24,12 +24,12 @@ config = {
 
 firebase = pyrebase.initialize_app(config)
 auth = firebase.auth()
-user = auth.sign_in_with_email_and_password('bhagatv@uci.edu', 'admin123')
+user = auth.sign_in_with_email_and_password('', '')
 db = firebase.database()
 
 client = smartcar.AuthClient(
-    client_id = "db0c47e9-4ab8-45d1-be16-2e474625279a",
-    client_secret = "98588318-38af-4b62-b5de-7139609561eb",
+    client_id = "",
+    client_secret = "",
     redirect_uri = 'https://localhost:80/exchange',
     scope=['read_vehicle_info','control_security', 'control_security:unlock', 'control_security:lock','read_location','read_odometer',],
     test_mode=False
