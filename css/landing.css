@@ -1,0 +1,152 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+@media (max-width:550px){
+  .content{
+    margin-top:15% !important;
+  }
+}
+/* Add some content at the middle of the video/page */
+.content {
+  position: relative;
+  width: 100%;
+  margin-top:10%;
+  text-align: center;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.content2 {
+  position: relative;
+  width: 100%;
+  margin-top: 30%;
+  text-align: center;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.content3 {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20%;
+}
+
+.content4 {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  color: #f1f1f1;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.content5 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.page-title{
+    display:inline-block;
+    padding-left:10px;
+    font-size:28px;
+}
+.btn{
+  margin-left:3px;
+
+}
+.navbar{
+    background-color: transparent !important;
+    transition: background-color .3s linear;
+}
+.navbar.scrolled{
+  background-color: black !important;
+}
+.page-title.scrolled2{
+  color:white;
+}
+.navbar-brand{
+    opacity: 1;
+}
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+}
+
+.bg {
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#new-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #e7e7e7;
+  }
+
+#new-button:hover {
+  background-color: #e7e7e7;
+  opacity: 0.8;}
+
+
+.profile-container {
+    margin-top:30px;
+}
+
+.pic{
+    width: 240px;
+    height: 320px;
+    border: 2px solid #e7e7e7;
+    border-radius: 10px;
+}
+
+.profile{
+    position: relative;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+.form-control {
+    width:400px !important;
+}
+
+.p {
+  font-family: Gotham Medium, system, sans serif;
+}

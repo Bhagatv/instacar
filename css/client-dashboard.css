@@ -1,0 +1,50 @@
+#new-button {
+  background-color: transparent;
+  color: #7d7d7d;
+  border: 2px solid white;
+  text-align: center;
+
+  }
+
+#new-button:hover {
+  background-color: #e7e7e7;
+  opacity: 0.8;}
+
+
+ .form-cont{
+ 	margin:0;
+ }
+
+
+.navbar{
+	background-color: white !important;
+}
+ .veh-cont{
+ 	width:50vw;
+ 	text-align:center;
+ }
+
+ .vehicle_title{
+ 	color:#7d7d7d;
+ 	font-size:14px;
+
+ }
+.controls-cont{
+	text-align:center;
+}
+ .controls{
+ 	text-align:center;
+ 	align-items: center;
+  justify-content: center;
+ 	display:flex;
+ }
+ .btn-controls{
+ 	margin:6px;
+
+
+ 	border-radius:500px !important;
+ }
+
+ .top{
+ 	margin-top:10%;
+ }
